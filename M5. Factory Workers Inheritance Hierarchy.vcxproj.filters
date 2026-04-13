@@ -18,5 +18,16 @@
     <ClCompile Include="M5. Factory Workers Inheritance Hierarchy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionWorker.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
