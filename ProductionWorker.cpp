@@ -29,6 +29,6 @@ double ProductionWorker::getPayRate() const
 
 void ProductionWorker::printProductionWorker() const
 {
-	cout << "Shift: " << (shift == 1 ? "Day" : "Night") << endl;
+	cout << "Shift: " << (shift == 1 ? "1" : "2") << endl;
 	cout << "Hourly Pay Rate: " << payRate << endl;
 }

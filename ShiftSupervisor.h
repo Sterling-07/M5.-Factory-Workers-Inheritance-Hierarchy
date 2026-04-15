@@ -12,7 +12,7 @@ private:
 
 public:
 	ShiftSupervisor();
-	ShiftSupervisor(const string& nm, const string& hire, int numb, int salary, double bonus);
+	ShiftSupervisor(const string& nm, int numb, const string& hire, int salary, double bonus);
 
 	void setAnnualSalary(double salary);
 	void setAnnualProductionBonus(double bonus);

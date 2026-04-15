@@ -6,7 +6,7 @@ using namespace std;
 TeamLeader::TeamLeader()
 	: ProductionWorker(), monthlyBonus(0.0), requiredHours(0), attendedHours(0) {}
 
-TeamLeader::TeamLeader(const string& nm, const string& hire, int numb, int shf, double pay, double bonus, int required, int attended)
+TeamLeader::TeamLeader(const string& nm, int numb, const string& hire, int shf, double pay, double bonus, int required, int attended)
 	: ProductionWorker(nm, numb, hire, shf, pay), monthlyBonus(bonus), requiredHours(required), attendedHours(attended) {}
 
 void TeamLeader::setMonthlyBonus(double bonus)

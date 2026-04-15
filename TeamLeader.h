@@ -13,7 +13,7 @@ private:
 
 public:
 	TeamLeader();
-	TeamLeader(const string& nm, const string& hire, int numb, int shf, double pay, double bonus, int required, int attended);
+	TeamLeader(const string& nm, int numb, const string& hire, int shf, double pay, double bonus, int required, int attended);
 
 	void setMonthlyBonus(double bonus);
 	void setRequiredHours(int hour);

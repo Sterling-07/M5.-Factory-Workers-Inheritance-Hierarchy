@@ -6,7 +6,7 @@ using namespace std;
 ShiftSupervisor::ShiftSupervisor()
 	: Employee(), annualSalary(0.0), annualProductionBonus(0.0) {}
 
-ShiftSupervisor::ShiftSupervisor(const string& nm, const string& hire, int numb, int salary, double bonus)
+ShiftSupervisor::ShiftSupervisor(const string& nm, int numb, const string& hire, int salary, double bonus)
 	: Employee(nm, numb, hire), annualSalary(salary), annualProductionBonus(bonus) {}
 
 void ShiftSupervisor::setAnnualSalary(double salary)
