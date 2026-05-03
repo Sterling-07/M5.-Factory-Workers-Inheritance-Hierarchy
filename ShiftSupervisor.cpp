@@ -34,4 +34,5 @@ void ShiftSupervisor::printShiftSupervisor() const
 	printEmployee();
 	cout << "Annual Salary: " << annualSalary << endl;
 	cout << "Annual Production Bonus: " << annualProductionBonus << endl;
+	cout << endl;
 }

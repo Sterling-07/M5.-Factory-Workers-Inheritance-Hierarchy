@@ -41,8 +41,10 @@ int TeamLeader::getattendedHours() const
 
 void TeamLeader::printTeamLeader() const
 {
+	printEmployee();
 	printProductionWorker();
 	cout << "Monthly Bonus: " << monthlyBonus << endl;
 	cout << "Required Training Hours: " << requiredHours << endl;
 	cout << "Attended Training Hours: " << attendedHours << endl;
+	cout << endl;
 }

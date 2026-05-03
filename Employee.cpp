@@ -42,7 +42,6 @@ string Employee::getHireDate() const
 
 void Employee::printEmployee() const
 {
-	cout << "Employee\n";
 	cout << "Name: " << name << endl;
 	cout << "Number: " << number << endl;
 	cout << "Hired: " << hireDate << endl;
