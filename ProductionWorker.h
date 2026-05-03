@@ -5,6 +5,9 @@
 
 class ProductionWorker : public Employee
 {
+public:
+	class InvalidShift {};
+	class InvalidPayRate {};
 private:
 	int shift;
 	double payRate;

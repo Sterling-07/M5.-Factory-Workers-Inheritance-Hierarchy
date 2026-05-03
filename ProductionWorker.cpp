@@ -9,11 +9,15 @@ ProductionWorker::ProductionWorker(const string& nm, int numb, const string& hir
 
 void ProductionWorker::setShift(int shf)
 {
+	if (shf != 1 && shf != 2)
+		throw InvalidShift();
 	shift = shf;
 }
 
 void ProductionWorker::setPayRate(double pay)
 {
+	if (pay < 0)
+		throw InvalidPayRate();
 	payRate = pay;
 }
 

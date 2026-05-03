@@ -15,6 +15,8 @@ void Employee::setName(const string& nm)
 
 void Employee::setNumber(int numb)
 {
+	if (numb < 0 || numb > 9999)
+		throw InvalidEmployeeNumber();
 	number = numb;
 }
 

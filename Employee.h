@@ -6,6 +6,8 @@ using namespace std;
 
 class Employee 
 {
+public:
+	class InvalidEmployeeNumber {};
 private:
 	string name;
 	int number;
